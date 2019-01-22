@@ -1,0 +1,49 @@
+img{
+    width: 40%;/*la foto cambia su relacion de aspecto segun el tamaño de la pagina*/
+    margin-left: 30%;
+    margin-right: 30%;
+    border: solid grey 2px;
+}
+
+h1{
+    font-size: 4em;
+    margin-top: 0;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    border: solid 2px grey;
+}
+
+body{
+    font-family: 'Lucida Sans';
+    margin: 0;
+    background-color: lightblue
+}
+
+
+p{
+    margin: 10px;
+    text-align: justify
+}
+
+.indice{
+    width: 150px;
+    margin-right:auto;
+    margin-left: auto;
+    border: solid 2px grey;
+}
+
+ #indice{
+ }
+
+ h2{
+    border-top:solid 1px grey; 
+    font-size:xx-large;
+    text-align: center;
+    background-color:lightsteelblue
+ }
+
+ footer{
+     border: solid black 1px;
+     background-color: grey
+ }
