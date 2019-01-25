@@ -1,8 +1,16 @@
 img{
+    border: solid grey 2px;
+}
+
+img.principal{
     width: 40%;/*la foto cambia su relacion de aspecto segun el tamaño de la pagina*/
     margin-left: 30%;
     margin-right: 30%;
-    border: solid grey 2px;
+}
+
+img.subfoto{
+    width: 200px;
+    margin-left:0%;
 }
 
 h1{
@@ -11,7 +19,6 @@ h1{
     text-align: center;
     background-color: black;
     color: whitesmoke;
-    border: solid 2px grey;
 }
 
 body{
@@ -33,17 +40,31 @@ p{
     border: solid 2px grey;
 }
 
- #indice{
+#indice{
  }
 
- h2{
+h2{
     border-top:solid 1px grey; 
     font-size:xx-large;
     text-align: center;
     background-color:lightsteelblue
  }
 
- footer{
-     border: solid black 1px;
+footer{
      background-color: grey
  }
+
+ /*tabla*/
+/*table{
+    border-collapse: collapse;
+    border-color: cadetblue;
+ }
+thead{
+    background-color: grey;
+ }
+tbody{
+    background-color: lightgreen;
+ }
+tfoot{
+    background-color: cadetblue
+ }*/
