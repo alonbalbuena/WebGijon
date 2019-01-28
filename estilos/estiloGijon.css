@@ -24,6 +24,12 @@ h2,h3{
     font-family: 'concert'
 }
 /*
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
+/*
 ESTILOS
 */
 abbr{
@@ -32,18 +38,23 @@ abbr{
 }
 
 img{
-    border: solid #c9c5cb 2px;
+    border: dashed #c9c5cb 3px;
 }
 
-img.principal{
+.principal{
     width: 40%;/*la foto cambia su relacion de aspecto segun el tamaño de la pagina*/
     margin-left: 30%;
     margin-right: 30%;
+    border-radius: 5%;/*borde redondeado*/
 }
 
-img.subfoto,h3{
+.subfoto,h3{
     width: 200px;
     margin-left:15%;
+}
+
+.subfoto{
+    border-radius: 90%;/*borde circular*/
 }
 
 h1{
@@ -64,7 +75,7 @@ body{
 }
 
 
-p,.nombreGijon{
+p,ul{
     margin: 10px;
     text-align: justify;
     width:70%;
@@ -72,7 +83,7 @@ p,.nombreGijon{
     margin-left: auto;
 }
 
-.indice{
+.indice,.vueltagijon{
     width: 150px;
     margin-right:auto;
     margin-left: auto;
@@ -104,10 +115,8 @@ footer{
 
 
 
- /*tabla*/
-.tabla{
 
-}
+ /*TABLA*/
 table{
     border-collapse: collapse;
     table-layout: fixed;
@@ -183,7 +192,6 @@ a:hover{
 a:active{
     color:#BED8D4;
 }
-
 
 .vueltaindice{
     text-align: right;
