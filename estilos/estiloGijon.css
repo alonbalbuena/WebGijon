@@ -1,10 +1,38 @@
+/*
+FUENTES
+*/
+
+@font-face {
+    font-family: 'encabezado';
+    src:url(../fuentes/majormonodisplay.woff2);
+}
+h1,footer{
+    font-family: 'encabezado';
+}
+@font-face{
+    font-family: 'parrafo';
+    src: url(../fuentes/parrafo.woff2);
+}
+p,li,table,a{
+    font-family: 'parrafo';
+}
+@font-face{
+    font-family: 'concert';
+    src: url(../fuentes/concert.woff2);
+}
+h2,h3{
+    font-family: 'concert'
+}
+/*
+ESTILOS
+*/
 abbr{
-    color: lightslategrey;
+    color: #414a4c;
     text-decoration: none;
 }
 
 img{
-    border: solid grey 2px;
+    border: solid #c9c5cb 2px;
 }
 
 img.principal{
@@ -23,14 +51,16 @@ h1{
     font-size: 4em;
     margin-top: 0;
     text-align: center;
-    background-color: black;
+    background-color: #414a4c;
     color: whitesmoke;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 
 body{
     font-family: 'Lucida Sans';
     margin: 0;
-    background-color: lightblue
+    background-color: #F4F0EC;
 }
 
 
@@ -46,25 +76,29 @@ p,.nombreGijon{
     width: 150px;
     margin-right:auto;
     margin-left: auto;
-    border: solid 2px grey;
+    border: solid 2px #c9c5cb;
+    padding: 15px 15px 15px 60px;
 }
 
-#indice{
- }
-
 h2{
-    border-top:solid 1px grey; 
+    border-top:solid 1px #414a4c;
+    border-bottom:  solid 1px #414a4c;
     font-size:25px;
     font-weight: bold;
     text-align: center;
-    background-color:lightsteelblue;
+    background-color:#BED8D4;
     padding: 10px;
+    color: #414a4c;
+    letter-spacing: 3px;
  }
 
 footer{
-    background-color: grey;
+    background-color: #414a4c;
     padding: 30px;
     font-size: 1.5em;
+    font-weight: bold;
+    color: #c9c5cb;
+    letter-spacing: 6px;
  }
 
 
@@ -76,9 +110,8 @@ footer{
 }
 table{
     border-collapse: collapse;
-    border-color: cadetblue;
     table-layout: fixed;
-    border:solid black;
+    border:solid #414a4c;
     padding-top: 20px;
     letter-spacing: 1px;
     margin: 0 auto 15px auto;
@@ -87,21 +120,22 @@ thead th{
     padding: 10px;
 }
 caption{
-    background-color: black;
-    color: white;
+    background-color: #BED8D4;
+    color: #414a4c;
     font-size: 25px;
     font-weight: bold;
     padding: 15px
 }
 thead{
-    background-color: grey;
+    background-color: #c9c5cb;
     font-size: 20px;
  }
 tbody{
     background-color:white;
  }
 tfoot{
-    background-color: cadetblue
+    background-color: #414a4c;
+    color: #c9c5cb;
 }
 td:nth-child(1) {
     font-weight: bold;
@@ -140,14 +174,14 @@ a:visited{
 }
 
 .indice li:hover{
-    background-color: grey;
+    background-color: #c9c5cb;
 }
 a:hover{
-    color:lightsteelblue;
+    color:#414a4c;
 }
 
 a:active{
-    color:greenyellow;
+    color:#BED8D4;
 }
 
 
