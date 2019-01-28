@@ -23,9 +23,6 @@ p,li,table,a{
 h2,h3{
     font-family: 'concert'
 }
-/*
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
 
 
 
@@ -58,14 +55,14 @@ img{
 }
 
 h1{
-    padding: 20px;
+    padding: 70px;
     font-size: 4em;
     margin-top: 0;
     text-align: center;
-    background-color: #414a4c;
     color: whitesmoke;
     letter-spacing: 4px;
     font-weight: bold;
+    background:linear-gradient(to bottom,#414a4c,#F4F0EC)/*gradiente*/
 }
 
 body{
@@ -83,7 +80,7 @@ p,ul{
     margin-left: auto;
 }
 
-.indice,.vueltagijon{
+.indice{
     width: 150px;
     margin-right:auto;
     margin-left: auto;
@@ -104,14 +101,17 @@ h2{
  }
 
 footer{
-    background-color: #414a4c;
-    padding: 30px;
+    padding: 70px;
     font-size: 1.5em;
     font-weight: bold;
     color: #c9c5cb;
     letter-spacing: 6px;
- }
+    background:linear-gradient(to bottom,#F4F0EC,#414a4c)/*gradiente*/
+}
 
+.vueltagijon{
+    margin-left: auto;
+}
 
 
 
