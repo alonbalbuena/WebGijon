@@ -37,7 +37,12 @@ abbr{
 img{
     border: dashed #c9c5cb 3px;
 }
-
+.fotoencabezado{
+    width: 100%;
+    border: none;
+    margin-bottom:0px;
+    height:100%;
+}
 .principal{
     width: 40%;/*la foto cambia su relacion de aspecto segun el tamaño de la pagina*/
     margin-left: 30%;
@@ -56,17 +61,17 @@ img{
 
 h1{
     padding: 70px;
-    font-size: 4em;
+    font-size: 5em;
     margin-top: 0;
     text-align: center;
     color: whitesmoke;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     font-weight: bold;
-    background:linear-gradient(to bottom,#414a4c,#F4F0EC)/*gradiente*/
+    background-image: url('../imagenes/puerto.jpg');
+    background:linear-gradient(to bottom,#414a4c,#F4F0EC)/*gradiente*/;
 }
 
 body{
-    font-family: 'Lucida Sans';
     margin: 0;
     background-color: #F4F0EC;
 }
@@ -98,6 +103,7 @@ h2{
     padding: 10px;
     color: #414a4c;
     letter-spacing: 3px;
+    margin-top: 0px;
  }
 
 footer{
@@ -166,27 +172,40 @@ tbody tr td:nth-child(1){
     margin: 0;
 }
 
-/*ESTILO HIPERVINCULO*/
+/*ESTILO LISTAS*/
 .indice{
     list-style-type: disc;
-    text-decoration: none;
 }
 .indice ol{
     list-style-type: circle;
 }
 
+
+
+/*ESTILO HIPERVINCULO*/
+
 a:link{
     color: royalblue;
 }
 a:visited{
-    color: mediumpurple;
+    color: blueviolet;
 }
 
+
+/*estilo indice*/
+a{
+    text-decoration: none;
+    font-family: ;
+}
 .indice li:hover{
-    background-color: #c9c5cb;
+    background-color: #c9c5cb;*/
+}
+.subindice:hover{
+    font-style: cursive;
 }
 a:hover{
     color:#414a4c;
+    font-weight: bold;
 }
 
 a:active{
