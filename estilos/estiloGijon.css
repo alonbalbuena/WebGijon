@@ -1,3 +1,8 @@
+abbr{
+    color: lightslategrey;
+    text-decoration: none;
+}
+
 img{
     border: solid grey 2px;
 }
@@ -8,12 +13,13 @@ img.principal{
     margin-right: 30%;
 }
 
-img.subfoto{
+img.subfoto,h3{
     width: 200px;
-    margin-left:0%;
+    margin-left:15%;
 }
 
 h1{
+    padding: 20px;
     font-size: 4em;
     margin-top: 0;
     text-align: center;
@@ -28,9 +34,12 @@ body{
 }
 
 
-p{
+p,.nombreGijon{
     margin: 10px;
-    text-align: justify
+    text-align: justify;
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .indice{
@@ -45,26 +54,105 @@ p{
 
 h2{
     border-top:solid 1px grey; 
-    font-size:xx-large;
+    font-size:25px;
+    font-weight: bold;
     text-align: center;
-    background-color:lightsteelblue
+    background-color:lightsteelblue;
+    padding: 10px;
  }
 
 footer{
-     background-color: grey
+    background-color: grey;
+    padding: 30px;
+    font-size: 1.5em;
  }
 
+
+
+
  /*tabla*/
-/*table{
+.tabla{
+
+}
+table{
     border-collapse: collapse;
     border-color: cadetblue;
+    table-layout: fixed;
+    border:solid black;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    margin: 0 auto 15px auto;
  }
+thead th{
+    padding: 10px;
+}
+caption{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px
+}
 thead{
     background-color: grey;
+    font-size: 20px;
  }
 tbody{
-    background-color: lightgreen;
+    background-color:white;
  }
 tfoot{
     background-color: cadetblue
- }*/
+}
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+/*alineamos*/
+
+td:nth-child(1) {
+    width: 20px;
+}
+ td:nth-child(2){
+    text-align: right
+ }
+tbody tr td:nth-child(1){
+    text-align: left;
+}
+.barrios{
+    table-layout: fixed;
+    margin: 0;
+}
+
+/*ESTILO HIPERVINCULO*/
+.indice{
+    list-style-type: disc;
+    text-decoration: none;
+}
+.indice ol{
+    list-style-type: circle;
+}
+
+a:link{
+    color: royalblue;
+}
+a:visited{
+    color: mediumpurple;
+}
+
+.indice li:hover{
+    background-color: grey;
+}
+a:hover{
+    color:lightsteelblue;
+}
+
+a:active{
+    color:greenyellow;
+}
+
+
+.vueltaindice{
+    text-align: right;
+    margin-right: auto;
+    margin-left:85%;
+}
