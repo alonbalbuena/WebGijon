@@ -62,13 +62,18 @@ img{
 h1{
     padding: 70px;
     font-size: 5em;
-    margin-top: 0;
+    margin: 0;
     text-align: center;
     color: whitesmoke;
     letter-spacing: 5px;
     font-weight: bold;
+
+    /*imagen de cabecera*/
     background-image: url('../imagenes/puerto.jpg');
-    background:linear-gradient(to bottom,#414a4c,#F4F0EC)/*gradiente*/;
+    background-repeat: no-repeat;
+    background-attachment:  scroll ;
+    background-position: center;
+    background-size: cover;
 }
 
 body{
@@ -195,10 +200,9 @@ a:visited{
 /*estilo indice*/
 a{
     text-decoration: none;
-    font-family: ;
 }
 .indice li:hover{
-    background-color: #c9c5cb;*/
+    background-color: #c9c5cb;
 }
 .subindice:hover{
     font-style: cursive;
