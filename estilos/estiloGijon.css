@@ -37,12 +37,7 @@ abbr{
 img{
     border: dashed #c9c5cb 3px;
 }
-.fotoencabezado{
-    width: 100%;
-    border: none;
-    margin-bottom:0px;
-    height:100%;
-}
+
 .principal{
     width: 40%;/*la foto cambia su relacion de aspecto segun el tamaño de la pagina*/
     margin-left: 30%;
@@ -60,11 +55,11 @@ img{
 }
 
 h1{
-    padding: 70px;
-    font-size: 5em;
+    padding: 120px;
+    font-size: 5.5em;
     margin: 0;
     text-align: center;
-    color: whitesmoke;
+    color: #F4F0EC;
     letter-spacing: 5px;
     font-weight: bold;
 
@@ -94,19 +89,19 @@ p,ul{
     width: 150px;
     margin-right:auto;
     margin-left: auto;
-    border: solid 2px #c9c5cb;
-    padding: 15px 15px 15px 60px;
+    border: dashed 3px #c9c5cb;
+    padding: 20px 20px 20px 65px;
 }
 
 h2{
-    border-top:solid 1px #414a4c;
-    border-bottom:  solid 1px #414a4c;
+    border-top:solid 3px #ffa987;
+    border-bottom:solid 3px #ffa987;
     font-size:25px;
     font-weight: bold;
     text-align: center;
-    background-color:#BED8D4;
+    background-color:#e54b4b;
     padding: 10px;
-    color: #414a4c;
+    color: #F4F0EC;
     letter-spacing: 3px;
     margin-top: 0px;
  }
@@ -115,13 +110,16 @@ footer{
     padding: 70px;
     font-size: 1.5em;
     font-weight: bold;
-    color: #c9c5cb;
+    color: #414a4c;
     letter-spacing: 6px;
-    background:linear-gradient(to bottom,#F4F0EC,#414a4c)/*gradiente*/
+    background:linear-gradient(to bottom,#F4F0EC,#e54b4b)/*gradiente*/
 }
 
 .vueltagijon{
-    margin-left: auto;
+    border:solid;
+    width:auto;
+    padding-left: auto;
+    margin-right: auto;
 }
 
 
@@ -129,6 +127,7 @@ footer{
 
  /*TABLA*/
 table{
+    
     border-collapse: collapse;
     table-layout: fixed;
     border:solid #414a4c;
@@ -140,6 +139,7 @@ thead th{
     padding: 10px;
 }
 caption{
+    border-radius: 50px 50px 0 0;/*redondeo esquinas superiores*/
     background-color: #BED8D4;
     color: #414a4c;
     font-size: 25px;
@@ -210,6 +210,7 @@ a{
 a:hover{
     color:#414a4c;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 a:active{
