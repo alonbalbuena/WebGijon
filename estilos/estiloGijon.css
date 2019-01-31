@@ -86,12 +86,19 @@ p,ul{
     margin-left: auto;
 }
 
-.indice{
+p:first-letter{
+    font-size: 1.5em;
+}
+
+.indice,.vueltagijon{
     width: 150px;
     margin-right:auto;
     margin-left: auto;
     border: dashed 3px #c9c5cb;
     padding: 20px 20px 20px 65px;
+}
+.vueltagijon{    
+    padding: 20px;
 }
 
 h2{
@@ -115,15 +122,6 @@ footer{
     letter-spacing: 6px;
     background:linear-gradient(to bottom,#F4F0EC,#e54b4b)/*gradiente*/
 }
-
-.vueltagijon{
-    border:solid;
-    width:auto;
-    padding-left: auto;
-    margin-right: auto;
-}
-
-
 
 
  /*TABLA*/
