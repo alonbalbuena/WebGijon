@@ -57,6 +57,7 @@ img{
 h1{
     padding: 120px;
     font-size: 5.5em;
+    text-shadow: -1px 0 #414a4c, 0 1px #414a4c, 1px 0 #414a4c, 0 -1px #414a4c;
     margin: 0;
     text-align: center;
     color: #F4F0EC;
